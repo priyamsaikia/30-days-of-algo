@@ -1,0 +1,27 @@
+What is the output of below code snippet?
+
+String s1 = new String("abc");
+String s2 = new String("abc");
+System.out.println(s1 == s2);
+It will print false because we are using new operator to create String, so it will be created in the heap memory and both s1, s2 will have different reference. If we create them using double quotes, then they will be part of string pool and it will print true.
+What will be output of below code snippet?
+
+String s1 = "abc";
+StringBuffer s2 = new StringBuffer(s1);
+System.out.println(s1.equals(s2));
+It will print false because s2 is not of type String. If you will look at the equals method implementation in the String class, you will find a check using instanceof operator to check if the type of passed object is String? If not, then return false.
+What will be the output of below program?
+
+String s1 = "abc";
+String s2 = new String("abc");
+s2.intern();
+System.out.println(s1 ==s2);
+It’s a tricky question and output will be false. We know that intern() method will return the String object reference from the string pool, but since we didn’t assigned it back to s2, there is no change in s2 and hence both s1 and s2 are having different reference. If we change the code in line 3 to s2 = s2.intern(); then output will be true.
+How many String objects got created in below code snippet?
+
+String s1 = new String("Hello");
+String s2 = new String("Hello");
+The answer is 3.
+First – line 1, “Hello” object in the string pool.
+Second – line 1, new String with value “Hello” in the heap memory.
+Third – line 2, new String with value “Hello” in the heap memory. Here “Hello” string from string pool is reused.
