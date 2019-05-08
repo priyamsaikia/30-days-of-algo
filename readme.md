@@ -11,3 +11,6 @@ Algorithms covered yet:
 4. String: pattern check
 5. String: duplicate words
 6. String: char count in a String without loop
+   Starting <b>Hacker-rank</b> 30 days of Coding
+7. Data Types, Operators (Money Calculations),
+   Conditional Statements, Class vs Instance
