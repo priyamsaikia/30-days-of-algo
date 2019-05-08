@@ -10,7 +10,7 @@ Algorithms covered yet:
 3. String: check Palindrome and reverse
 4. String: pattern check
 5. String: duplicate words
-6. String: char count in a String without loop
+6. String: char count in a String without loop<br>
    Starting <b>Hacker-rank</b> 30 days of Coding
 7. Data Types, Operators (Money Calculations),
    Conditional Statements, Class vs Instance
