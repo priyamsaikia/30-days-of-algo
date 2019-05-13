@@ -14,3 +14,5 @@ Algorithms covered yet:
    Starting <b>Hacker-rank</b> 30 days of Coding
 7. Data Types, Operators (Money Calculations),
    Conditional Statements, Class vs Instance
+8. Loops, Arrays, Dictionaries and Maps, Recursion, Binary</br>
+   HackerRank day 5 to 10
