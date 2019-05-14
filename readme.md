@@ -16,3 +16,5 @@ Algorithms covered yet:
    Conditional Statements, Class vs Instance
 8. Loops, Arrays, Dictionaries and Maps, Recursion, Binary</br>
    HackerRank day 5 to 10
+9. 2D Arrays
+   HackerRank day 11
