@@ -33,8 +33,8 @@ public class Day9 {
             }
         }
 
-        int maxHourGlassSum = 0;
-        int hourGlassSum = 0;
+        Integer maxHourGlassSum = null;
+        int hourGlassSum;
 
         for (int j = 0; j < n - 2; j++) {
             for (int l = 0; l < n - 2; l++) {
@@ -51,7 +51,7 @@ public class Day9 {
 //                System.out.print(arr[j + 2][l + 1] + " ");
 //                System.out.print(arr[j + 2][l + 2] + " ");
 //                System.out.println();
-                if (maxHourGlassSum < hourGlassSum) {
+                if (maxHourGlassSum == null || maxHourGlassSum < hourGlassSum) {
                     maxHourGlassSum = hourGlassSum;
                 }
             }
