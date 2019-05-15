@@ -1,0 +1,2 @@
+1. When asked to find the max sum, do not initialise the variable holding the maxSum to 0
+   Especially when negative inputs are also allowed.
